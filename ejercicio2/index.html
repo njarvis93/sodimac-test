@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2° Exercise</title>
+</head>
+<body>
+    <div id="short-section">
+        <div>
+            <label>URL to be shorted: </label>
+            <input id="url-received" type="text" value=""/>
+        </div>
+    
+        <button id="change-url">Short URL</button>
+    </div>
+    <div id="decoded-section" style="display: none;">
+        <div>
+            <label>Encoded URL:</label>
+            <input id="url-encoded" type="text" value=""/>
+        </div>
+        <button id="decode-btn">Revel URL</button>
+    </div>
+   
+    <p id="root">
+        <h1 id="url-text"></h1>
+    </p>
+
+    <div id="actions" style="display: none;">
+        <button id="back">Short URL</button>
+        <button id="search-hash">Search an URL</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
